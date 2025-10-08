@@ -1,1 +1,3 @@
-First gen ai project
+Python-dotenv
+pandas
+numpy
