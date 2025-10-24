@@ -1,3 +1,5 @@
 Python-dotenv
 pandas
 numpy
+pydantic
+##-e .
