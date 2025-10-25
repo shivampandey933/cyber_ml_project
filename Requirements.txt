@@ -2,4 +2,7 @@ Python-dotenv
 pandas
 numpy
 pydantic
+pymongo[srv]==3.11
+pymongo
+certifi
 ##-e .
