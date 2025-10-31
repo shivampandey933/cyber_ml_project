@@ -3,6 +3,8 @@ from Network_security.Exception.exception import NetworkSecurityException
 from Network_security.Logging.logging import logging
 from Network_security.Entity.config_entity import DataIngestionConfig
 from Network_security.Entity.config_entity import TrainingPipelineConfig
+from Network_security.Components.data_validation import DataValidation
+from Network_security.Entity.config_entity import DataValidationConfig
 import sys
 if __name__== '__main__':
     try:
@@ -13,6 +15,11 @@ if __name__== '__main__':
         dataingestionartifact=data_ingestion.initiate_data_ingestion()
         logging.info("Data ingestion completed")
         print(dataingestionartifact)
-
+        data_validation_config= DataValidationConfig(trainingpipelineconfig)
+        data_validation=  DataValidation(dataingestionartifact,data_validation_config)
+        logging.info("Starting data validation")
+        data_validation_artifact= data_validation.initiate_data_validation()
+        logging.info("Data validation completed")
+        print(data_validation_artifact)
     except Exception as e:
         raise NetworkSecurityException(e,sys)
