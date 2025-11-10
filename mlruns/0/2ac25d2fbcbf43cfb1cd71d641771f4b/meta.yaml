@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/hp/Documents/new%20projects/ml%20projects/mlruns/0/2ac25d2fbcbf43cfb1cd71d641771f4b/artifacts
+end_time: 1762743797689
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2ac25d2fbcbf43cfb1cd71d641771f4b
+run_name: welcoming-tern-488
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762743792471
+status: 3
+tags: []
+user_id: hp

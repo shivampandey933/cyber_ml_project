@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/hp/Documents/new%20projects/ml%20projects/mlruns/0/models/m-0a9443a4175a491ab99f5fe1cf535462/artifacts
+creation_timestamp: 1762743782186
+experiment_id: '0'
+last_updated_timestamp: 1762743792335
+model_id: m-0a9443a4175a491ab99f5fe1cf535462
+model_type: null
+name: model
+source_run_id: 5790928654504778b2d4321f9a95ac4a
+status: 2
+status_message: null

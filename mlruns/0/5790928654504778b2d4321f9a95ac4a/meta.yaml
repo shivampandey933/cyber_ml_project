@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/hp/Documents/new%20projects/ml%20projects/mlruns/0/5790928654504778b2d4321f9a95ac4a/artifacts
+end_time: 1762743792364
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5790928654504778b2d4321f9a95ac4a
+run_name: mercurial-squid-874
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762743781960
+status: 3
+tags: []
+user_id: hp
